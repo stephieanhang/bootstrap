@@ -1,0 +1,77 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+.bi {
+      font-size: 2rem;
+      color: #737373;
+      padding: 10px;
+}
+
+.carousel-caption {
+      margin-bottom: 20vh;
+}
+
+.modification {
+      margin-bottom: 15vh;
+}
+
+h1 {
+      font-size: 2em;
+      color: #737373;
+      text-align: center;
+}
+
+h2 {
+      font-size: 2em;
+      color: #737373;
+      text-align: center;
+}
+
+p {
+      font-size: 1.5em;
+      color: #737373;
+      text-align: center;
+}
+
+.card-text {
+      font-size: 1em;
+      color: #737373;
+      text-align: start;
+}
+
+.suscribe-text {
+      font-size: 1em;
+      color: #737373;
+      text-align: start;
+}
+
+/*BOTON WHATSAPP FIJO*/
+
+.botonwhatsapp {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      z-index: 100;
+}
+  
+.bi-whatsapp {
+      color: #7AD45A;
+      font-size: 60px;
+      text-align: center;
+}
+
+.scale:hover {
+      transform: scale(1.1, 1.1);
+}
+
+.comentario {
+      display: flex;
+      flex-direction: column;
+}
+
+.margin {
+      margin-top: 20px;     
+}
