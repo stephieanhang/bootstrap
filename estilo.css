@@ -75,3 +75,42 @@ p {
 .margin {
       margin-top: 20px;     
 }
+
+@media screen and (max-width: 768px) {
+      .carousel-caption {
+            margin: 0;
+            padding: 0;
+      }
+      .modification {
+            margin: 0;
+            padding: 0;
+      }
+      .title {
+            display: none;
+      }
+      h2 {
+            font-size: 1.5em;
+      }
+      p {
+            font-size: 0.7em;
+      }
+      .card-img-top {
+            width: 150px;
+            align-self: center;
+      }
+      .logo {
+            width: 150px;
+      }
+      .card-title {
+            text-align: center;
+      }
+      .card-text {
+            text-align: center;
+      }
+      .btn-secondary {
+            margin-left: 40px;
+      }
+      .bi-whatsapp {
+            font-size: 40px;
+      }
+}  
